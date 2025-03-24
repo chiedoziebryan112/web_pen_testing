@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.1.1">
   <diagram name="Page-1" id="dppJE0Hn1dgH6Z_DONid">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="60" width="415" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="255.56" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-6" value="ping 192.168.0.4" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="630" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="98.75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XUSUvTWy4rqbbIrAUuDv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="216" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-10" value="&lt;div&gt;TOOLS:MSFVENOM,METASPLOITABLE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Creates payload or malware&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="240" as="sourcePoint" />
+            <mxPoint x="840" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-15" value="REMOTE ACCESS FROM KALI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XUSUvTWy4rqbbIrAUuDv-17" value="ping 172&lt;b&gt;.20.10.9&lt;/b&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="160" as="sourcePoint" />
+            <mxPoint x="310" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
